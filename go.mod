@@ -1,4 +1,4 @@
-module honnef.co/go/tools
+module github.com/xklalala/go-tools
 
 go 1.14
 
