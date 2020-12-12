@@ -160,7 +160,7 @@ var DefaultConfig = Config{
 	Checks: []string{"all", "-ST1000", "-ST1003", "-ST1016", "-ST1020", "-ST1021", "-ST1022"},
 	Initialisms: []string{
 		"ACL", "API", "ASCII", "CPU", "CSS", "DNS",
-		"EOF", "GUID", "HTML", "HTTP", "HTTPS", "ID",
+		"EOF", "GUID", "HTML", "HTTP", "HTTPS", "Id",
 		"IP", "JSON", "QPS", "RAM", "RPC", "SLA",
 		"SMTP", "SQL", "SSH", "TCP", "TLS", "TTL",
 		"UDP", "UI", "GID", "UID", "UUID", "URI",
