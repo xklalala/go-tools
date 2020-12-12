@@ -16,17 +16,17 @@
 
 <p>
   There are various ways in which you can install staticcheck,
-  but they all boil down to obtaining the command located at <code>honnef.co/go/tools/cmd/staticcheck</code>
+  but they all boil down to obtaining the command located at <code>github.com/xklalala/go-tools/cmd/staticcheck</code>
 </p>
 
 <p>
-  If you use Go modules, you can simply run <code>go get honnef.co/go/tools/cmd/staticcheck</code> to obtain the latest released version.
+  If you use Go modules, you can simply run <code>go get github.com/xklalala/go-tools/cmd/staticcheck</code> to obtain the latest released version.
   If you're still using a GOPATH-based workflow, then the above command will instead fetch the master branch.
   It is suggested that you explicitly check out the latest release tag instead, which is currently <code>2020.1.6</code>.
   One way of doing so would be as follows:
 </p>
 
-<pre><code>cd $GOPATH/src/honnef.co/go/tools/cmd/staticcheck
+<pre><code>cd $GOPATH/src/github.com/xklalala/go-tools/cmd/staticcheck
 git checkout 2020.1.6
 go get
 go install

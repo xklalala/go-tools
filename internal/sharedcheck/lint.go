@@ -4,10 +4,10 @@ import (
 	"go/ast"
 	"go/types"
 
-	"honnef.co/go/tools/go/ast/astutil"
-	"honnef.co/go/tools/go/ir"
-	"honnef.co/go/tools/go/ir/irutil"
-	"honnef.co/go/tools/internal/passes/buildir"
+	"github.com/xklalala/go-tools/go/ast/astutil"
+	"github.com/xklalala/go-tools/go/ir"
+	"github.com/xklalala/go-tools/go/ir/irutil"
+	"github.com/xklalala/go-tools/internal/passes/buildir"
 
 	"golang.org/x/tools/go/analysis"
 )

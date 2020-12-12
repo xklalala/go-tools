@@ -7,10 +7,8 @@ var abcdef_ int
 var abc_def int  // want `should not use underscores in Go names; var abc_def should be abcDef`
 var abc_def_ int // want `should not use underscores in Go names; var abc_def_ should be abcDef_`
 
-func fn_1()  {} // want `func fn_1 should be fn1`
-func fn2()   {}
-func fn_Id() {} // want `func fn_Id should be fnID`
-func fnId()  {} // want `func fnId should be fnID`
+func fn_1() {} // want `func fn_1 should be fn1`
+func fn2()  {}
 
 var FOO_BAR int // want `should not use ALL_CAPS in Go names; use CamelCase instead`
 var Foo_BAR int // want `var Foo_BAR should be FooBAR`

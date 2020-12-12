@@ -4,8 +4,8 @@ import (
 	"go/types"
 	"strings"
 
-	"honnef.co/go/tools/go/ir"
-	"honnef.co/go/tools/go/types/typeutil"
+	"github.com/xklalala/go-tools/go/ir"
+	"github.com/xklalala/go-tools/go/types/typeutil"
 )
 
 func Reachable(from, to *ir.BasicBlock) bool {

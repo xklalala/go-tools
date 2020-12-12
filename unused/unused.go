@@ -9,14 +9,14 @@ import (
 	"reflect"
 	"strings"
 
-	"honnef.co/go/tools/analysis/code"
-	"honnef.co/go/tools/analysis/facts"
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/analysis/report"
-	"honnef.co/go/tools/go/ast/astutil"
-	"honnef.co/go/tools/go/ir"
-	"honnef.co/go/tools/go/types/typeutil"
-	"honnef.co/go/tools/internal/passes/buildir"
+	"github.com/xklalala/go-tools/analysis/code"
+	"github.com/xklalala/go-tools/analysis/facts"
+	"github.com/xklalala/go-tools/analysis/lint"
+	"github.com/xklalala/go-tools/analysis/report"
+	"github.com/xklalala/go-tools/go/ast/astutil"
+	"github.com/xklalala/go-tools/go/ir"
+	"github.com/xklalala/go-tools/go/types/typeutil"
+	"github.com/xklalala/go-tools/internal/passes/buildir"
 
 	"golang.org/x/tools/go/analysis"
 )

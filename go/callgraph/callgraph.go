@@ -43,7 +43,7 @@ import (
 	"fmt"
 	"go/token"
 
-	"honnef.co/go/tools/go/ir"
+	"github.com/xklalala/go-tools/go/ir"
 )
 
 // A Graph represents a call graph.

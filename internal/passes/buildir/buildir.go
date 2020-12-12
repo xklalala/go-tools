@@ -11,11 +11,10 @@
 package buildir
 
 import (
+	"github.com/xklalala/go-tools/go/ir"
 	"go/ast"
 	"go/types"
 	"reflect"
-
-	"honnef.co/go/tools/go/ir"
 
 	"golang.org/x/tools/go/analysis"
 )

@@ -5,14 +5,13 @@ package stylecheck
 
 import (
 	"fmt"
+	"github.com/xklalala/go-tools/analysis/code"
+	"github.com/xklalala/go-tools/analysis/report"
+	"github.com/xklalala/go-tools/config"
 	"go/ast"
 	"go/token"
 	"strings"
 	"unicode"
-
-	"honnef.co/go/tools/analysis/code"
-	"honnef.co/go/tools/analysis/report"
-	"honnef.co/go/tools/config"
 
 	"golang.org/x/tools/go/analysis"
 )

@@ -1,10 +1,10 @@
 package stylecheck
 
 import (
-	"honnef.co/go/tools/analysis/facts"
-	"honnef.co/go/tools/analysis/lint"
-	"honnef.co/go/tools/config"
-	"honnef.co/go/tools/internal/passes/buildir"
+	"github.com/xklalala/go-tools/analysis/facts"
+	"github.com/xklalala/go-tools/analysis/lint"
+	"github.com/xklalala/go-tools/config"
+	"github.com/xklalala/go-tools/internal/passes/buildir"
 
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/analysis/passes/inspect"

@@ -3,8 +3,8 @@ package facts
 import (
 	"reflect"
 
+	"github.com/xklalala/go-tools/analysis/lint"
 	"golang.org/x/tools/go/analysis"
-	"honnef.co/go/tools/analysis/lint"
 )
 
 func directives(pass *analysis.Pass) (interface{}, error) {

@@ -26,9 +26,9 @@ package cha
 import (
 	"go/types"
 
-	"honnef.co/go/tools/go/callgraph"
-	"honnef.co/go/tools/go/ir"
-	"honnef.co/go/tools/go/ir/irutil"
+	"github.com/xklalala/go-tools/go/callgraph"
+	"github.com/xklalala/go-tools/go/ir"
+	"github.com/xklalala/go-tools/go/ir/irutil"
 
 	"golang.org/x/tools/go/types/typeutil"
 )

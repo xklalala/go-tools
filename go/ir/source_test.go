@@ -21,8 +21,8 @@ import (
 	"strings"
 	"testing"
 
-	"honnef.co/go/tools/go/ir"
-	"honnef.co/go/tools/go/ir/irutil"
+	"github.com/xklalala/go-tools/go/ir"
+	"github.com/xklalala/go-tools/go/ir/irutil"
 
 	"golang.org/x/tools/go/ast/astutil"
 	"golang.org/x/tools/go/expect"

@@ -5,12 +5,12 @@ import (
 	"log"
 	"os"
 
+	"github.com/xklalala/go-tools/lintcmd"
+	"github.com/xklalala/go-tools/simple"
+	"github.com/xklalala/go-tools/staticcheck"
+	"github.com/xklalala/go-tools/stylecheck"
+	"github.com/xklalala/go-tools/unused"
 	"golang.org/x/tools/go/analysis"
-	"honnef.co/go/tools/lintcmd"
-	"honnef.co/go/tools/simple"
-	"honnef.co/go/tools/staticcheck"
-	"honnef.co/go/tools/stylecheck"
-	"honnef.co/go/tools/unused"
 )
 
 func main() {

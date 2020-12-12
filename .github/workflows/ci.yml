@@ -25,7 +25,7 @@ jobs:
     - uses: actions/setup-go@v1
       with:
         go-version: "1.14.x"
-    - run: "GO111MODULE=on go get honnef.co/go/tools/cmd/staticcheck"
+    - run: "GO111MODULE=on go get github.com/xklalala/go-tools/cmd/staticcheck"
     - uses: actions/checkout@v1
       with:
         fetch-depth: 1

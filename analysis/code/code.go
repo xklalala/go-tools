@@ -10,8 +10,8 @@ import (
 	"go/types"
 	"strings"
 
-	"honnef.co/go/tools/analysis/facts"
-	"honnef.co/go/tools/go/types/typeutil"
+	"github.com/xklalala/go-tools/analysis/facts"
+	"github.com/xklalala/go-tools/go/types/typeutil"
 
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/ast/astutil"

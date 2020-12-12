@@ -6,8 +6,8 @@ import (
 	"go/format"
 	"go/token"
 
+	"github.com/xklalala/go-tools/pattern"
 	"golang.org/x/tools/go/analysis"
-	"honnef.co/go/tools/pattern"
 )
 
 type Ranger interface {

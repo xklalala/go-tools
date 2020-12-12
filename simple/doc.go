@@ -1,6 +1,6 @@
 package simple
 
-import "honnef.co/go/tools/analysis/lint"
+import "github.com/xklalala/go-tools/analysis/lint"
 
 var Docs = map[string]*lint.Documentation{
 	"S1000": {

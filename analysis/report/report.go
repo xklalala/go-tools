@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"honnef.co/go/tools/analysis/facts"
+	"github.com/xklalala/go-tools/analysis/facts"
 
 	"golang.org/x/tools/go/analysis"
 	"golang.org/x/tools/go/ast/astutil"

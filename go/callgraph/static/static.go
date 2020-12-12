@@ -3,9 +3,9 @@
 package static
 
 import (
-	"honnef.co/go/tools/go/callgraph"
-	"honnef.co/go/tools/go/ir"
-	"honnef.co/go/tools/go/ir/irutil"
+	"github.com/xklalala/go-tools/go/callgraph"
+	"github.com/xklalala/go-tools/go/ir"
+	"github.com/xklalala/go-tools/go/ir/irutil"
 )
 
 // CallGraph computes the call graph of the specified program

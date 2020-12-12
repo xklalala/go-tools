@@ -13,9 +13,9 @@ import (
 	"time"
 	"unicode/utf8"
 
-	"honnef.co/go/tools/analysis/code"
-	"honnef.co/go/tools/go/ir"
-	"honnef.co/go/tools/go/types/typeutil"
+	"github.com/xklalala/go-tools/analysis/code"
+	"github.com/xklalala/go-tools/go/ir"
+	"github.com/xklalala/go-tools/go/types/typeutil"
 
 	"golang.org/x/tools/go/analysis"
 )

@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	"honnef.co/go/tools/internal/cache"
+	"github.com/xklalala/go-tools/internal/cache"
 )
 
 // computeHash computes a package's hash. The hash is based on all Go

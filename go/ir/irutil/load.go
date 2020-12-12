@@ -11,7 +11,7 @@ import (
 	"go/token"
 	"go/types"
 
-	"honnef.co/go/tools/go/ir"
+	"github.com/xklalala/go-tools/go/ir"
 
 	"golang.org/x/tools/go/loader"
 	"golang.org/x/tools/go/packages"

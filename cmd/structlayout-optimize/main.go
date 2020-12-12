@@ -11,8 +11,8 @@ import (
 	"sort"
 	"strings"
 
-	"honnef.co/go/tools/lintcmd/version"
-	st "honnef.co/go/tools/structlayout"
+	"github.com/xklalala/go-tools/lintcmd/version"
+	st "github.com/xklalala/go-tools/structlayout"
 )
 
 var (
